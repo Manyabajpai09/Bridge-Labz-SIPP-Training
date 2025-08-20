@@ -1,0 +1,15 @@
+DAY 1 Question 2
+
+ CLASS member
+  ATTRIBUTE name
+  ATTRIBUTE ID
+  ATTRIBUTE memberID
+     CONSTRUCTOR member(n,i,m)
+	 SET n=name
+	 SET i=ID
+	 SET m=memberID
+ METHOD displayInfo()
+  PRINT "name:" + name
+  PRINT "ID:" + ID
+  PRINT "memberId:"+ MemberID
+  END

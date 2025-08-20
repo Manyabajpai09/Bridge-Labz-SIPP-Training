@@ -1,0 +1,43 @@
+DAY 1 Question 1
+
+ CLASS pet
+  ATTRIBUTE name
+  ATTRIBUTE age
+  ATTRIBUTE breed
+       CONSTRUCTOR Pet(n,a,b)
+	     SET name=n
+		 SET age=a
+		 SET breed=b
+  METHOD displayInfo()
+   PRINT "Name:" + name
+   PRINT "Age:" +age
+   PRINT "Breed": +breed
+    
+	CLASS Dog extends pet
+	 ATTRIBUTE is trained
+	 CONSTRUCTOR pet(n,a,b,trained)
+	    CALL super(n,a,b)
+		SET isTrained = Trained
+	 METHOD displayInfo()
+        CALL super.displayInfo()
+        PRINT "Trained: " + isTrained	
+    CLASS Cat EXTENDS Pet
+    ATTRIBUTE isIndoor
+
+    CONSTRUCTOR Cat(n, a, b, indoor)
+        CALL super(n, a, b)
+        SET isIndoor = indoor
+
+    METHOD displayInfo()
+        CALL super.displayInfo()
+        PRINT "Indoor: " + isIndoor
+	CLASS Bird expents pet
+	     ATTRIBUTE isOutdoor
+	         CONSTRUCTOR pet(n,a,b,outdoor)
+		 CALL super(n,a,b)
+		 SET isCanTalk= CanTalk
+	METHOD displayInfo()
+	     CALL super.displayInfo()
+		 PRINT "CanTalk:" + CanTalk
+		 END
+		 
